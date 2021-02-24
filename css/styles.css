@@ -13,3 +13,9 @@ html {
     margin: 0;
     list-style: none;
 }
+
+#counter {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
