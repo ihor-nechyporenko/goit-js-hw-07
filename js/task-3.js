@@ -16,7 +16,7 @@ const images = [
     },
   ];
 
-  const makeImageMarup = ({url, alt}) => {
+  const makeImageMarkup = ({url, alt}) => {
     return `
     <li>
       <img class="image" src="${url}" alt="${alt}">
@@ -25,7 +25,7 @@ const images = [
   }
   
   const makeGalleryMarkup = images
-    .map(makeImageMarup)
+    .map(makeImageMarkup)
     .join('');
 
   const galleryEl = document.querySelector('#gallery');
