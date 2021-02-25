@@ -16,16 +16,4 @@ function decrement() {
 incrementBtn.addEventListener('click', increment);
 
 decrementBtn.addEventListener('click', decrement);
-
-// VARIANT 2 ------------------------------------------------------------------
-
-// incrementBtn.addEventListener('click', () => {
-//     counterValue += 1;
-//     document.querySelector('#value').textContent = counterValue;
-// });
-
-// decrementBtn.addEventListener('click', () => {
-//     counterValue -= 1;
-//     document.querySelector('#value').textContent = counterValue;
-// })
     
