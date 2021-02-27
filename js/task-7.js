@@ -1,5 +1,4 @@
 const input = document.querySelector('#font-size-control');
-console.log(input);
 const textEl = document.querySelector('#text');
 
 input.addEventListener('input', onInputChange);
