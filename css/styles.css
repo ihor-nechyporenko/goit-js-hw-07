@@ -2,16 +2,38 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    padding-left: 40px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.task-list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
 .image {
     display: block;
     max-width: 100%;
     width: auto;
 }
 
+#ingredients,
+#categories {
+    margin-bottom: 50px;
+}
 
 #gallery {
     padding: 0;
-    margin: 0;
+    margin: 0 0 50px 0;
     list-style: none;
 }
 
@@ -22,13 +44,13 @@ html {
 }
 
 #counter {
-    text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 #validation-input {
     border: 3px solid #bdbdbd;
+    margin-bottom: 50px;
 }
   
 #validation-input.valid {
